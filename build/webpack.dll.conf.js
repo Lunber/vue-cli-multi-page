@@ -10,7 +10,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(rootPath,"static/js/dll"),
-        filename: "[name].[chunkhash].js",
+        filename: "[name].js?[chunkhash]",
         library: '[name]_library',
         publicPath: "/static/js/dll"
     },
